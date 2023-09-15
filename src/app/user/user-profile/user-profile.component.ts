@@ -76,7 +76,6 @@ export class UserProfileComponent {
                                         console.log('Invalid date format.');
                                     }
                                 }
-                                this.profileImagePath = profileImagePath;
                             },
                             (err) => {
                                 console.log(err.status);
